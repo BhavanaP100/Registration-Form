@@ -1,8 +1,7 @@
 <?php
-// Collect form data safely
 $name     = htmlspecialchars($_POST['name']);
 $email    = htmlspecialchars($_POST['email']);
-$password = htmlspecialchars($_POST['password']); // Normally you'd hash this!
+$password = htmlspecialchars($_POST['password']); 
 $gender   = htmlspecialchars($_POST['gender']);
 $dob      = htmlspecialchars($_POST['dob']);
 $phone    = htmlspecialchars($_POST['phone']);
